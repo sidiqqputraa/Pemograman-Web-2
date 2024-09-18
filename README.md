@@ -235,9 +235,10 @@ pembuatan kelas, penggunaan metode, dan hasil output.
 
 ?>
 ```
+# Output
+![image](https://github.com/user-attachments/assets/9b34e8a1-4ac9-4163-83ca-9500c0b9f46c)
 
 # Jobsheet 2
-# Penjelasan
 # Penjelasan
 # 1. Class dan Object
    - Class: Blueprint atau template untuk menciptakan objek.
@@ -246,11 +247,11 @@ pembuatan kelas, penggunaan metode, dan hasil output.
 Encapsulation adalah menyembunyikan detail implementasi dan hanya memberikan akses melalui metode tertentu.
 - 	Getter: Mengembalikan nilai dari atribut.
 - 	Setter: Mengubah nilai dan atribut.
--   Inheritance
+# 3. nheritance
 Inheritance adalah kelas dapat mewarisi properti dan metode dari kelas lain.
 - Class Pengguna: Memiliki atribut nama yang dilindungi (protected), sehingga bisa diakses oleh class turunannya (Dosen).
 - Class Dosen: Menambahkan atribut mataKuliah dan metode tampilkandatadosen() untuk menampilkan data dosen.
-- Polymorphism
+# 4. Polymorphism
 Polymorphism adalah Metode yang sama dapat memiliki implementasi berbeda dalam class yang berbeda.
 Pada kode ini, class PenggunaPolymorph adalah class dasar yang memiliki metode aksesfitur(). Class DosenPoly dan MahasiswaPoly adalah turunan yang mengoverride metode tersebut untuk memberikan output yang berbeda.
 # 5. Abstraction
@@ -554,7 +555,6 @@ echo $mahasiswa->tampilkanMahasiswa();
 ![image](https://github.com/user-attachments/assets/ac9a81ab-6e3c-494f-bf89-933b169ea5ce)
  
 # Jobsheet 3
-# Penjelasan
 # 1. Inheritance
 Class Person adalah class dasar (parent class) yang berisi atribut name dengan akses protected, sehingga dapat diwarisi oleh class turunan. Class Teacher dan Student merupakan class turunan dari Person.
 -	Class person memiliki atribugt name dan metode getName().
@@ -574,7 +574,7 @@ Contoh Penggunaan dan Output
 1. Instanisasi Objek student:
 1.	Mahasiswa "Aditya Nugroho" dengan ID "230302073".
 2.	Metode getName() mengembalikan nama mahasiswa, dan getStudentID() menampilkan ID mahasiswa.
-2. Instanisasi Objek teacher:
+# Instanisasi Objek teacher:
 1.	Dosen "Andi" dengan ID dosen "198765".
 2.	Metode getName() mengembalikan nama dosen, dan getTeacherID() menampilkan ID dosen.
 3. Instanisasi Objek OnlineCourse dan OfflineCourse:
